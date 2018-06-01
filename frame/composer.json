@@ -1,0 +1,23 @@
+{
+    "name": "administrator/frame",
+    "authors": [
+        {
+            "name": "Annie.D",
+            "email": "1164267045@qq.com"
+        }
+    ],
+    "require": {
+        "gregwar/captcha": "^1.1"
+    },
+    "autoload":{
+        "psr-4":{
+            "core\\":"core",
+            "app\\":"app",
+            "system\\":"system"
+        },
+        "files":[
+            "system/functions.php",
+            "core/config/database.php"
+        ]
+    }
+}
